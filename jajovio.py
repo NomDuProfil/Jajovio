@@ -56,7 +56,7 @@ for current in result["emails"]:
 
 file.close()
 
-print '\033[1;34m[+] '+count+' emails found\033[1;m'
+print '\033[1;34m[+] '+str(count)+' emails found\033[1;m'
 
 
 
